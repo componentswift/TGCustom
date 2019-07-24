@@ -12,6 +12,8 @@
 		0651EA7822E8269D007C31FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0651EA7622E8269D007C31FD /* Main.storyboard */; };
 		0651EA7A22E8269E007C31FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0651EA7922E8269E007C31FD /* Assets.xcassets */; };
 		0651EA7D22E8269E007C31FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0651EA7B22E8269E007C31FD /* LaunchScreen.storyboard */; };
+		06F71E5422E82F01008285EC /* Target_TGCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F71E5322E82F01008285EC /* Target_TGCustom.swift */; };
+		06F71E5722E82F63008285EC /* CustomController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F71E5622E82F63008285EC /* CustomController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		0651EA7922E8269E007C31FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0651EA7C22E8269E007C31FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0651EA7E22E8269E007C31FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06F71E5322E82F01008285EC /* Target_TGCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Target_TGCustom.swift; sourceTree = "<group>"; };
+		06F71E5622E82F63008285EC /* CustomController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		0651EA7122E8269D007C31FD /* TGCustom */ = {
 			isa = PBXGroup;
 			children = (
+				06F71E5222E82EED008285EC /* TGCustom */,
 				0651EA7222E8269D007C31FD /* AppDelegate.swift */,
 				0651EA7422E8269D007C31FD /* ViewController.swift */,
 				0651EA7622E8269D007C31FD /* Main.storyboard */,
@@ -62,6 +67,23 @@
 				0651EA7E22E8269E007C31FD /* Info.plist */,
 			);
 			path = TGCustom;
+			sourceTree = "<group>";
+		};
+		06F71E5222E82EED008285EC /* TGCustom */ = {
+			isa = PBXGroup;
+			children = (
+				06F71E5522E82F36008285EC /* Targets */,
+				06F71E5622E82F63008285EC /* CustomController.swift */,
+			);
+			path = TGCustom;
+			sourceTree = "<group>";
+		};
+		06F71E5522E82F36008285EC /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				06F71E5322E82F01008285EC /* Target_TGCustom.swift */,
+			);
+			path = Targets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +157,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06F71E5422E82F01008285EC /* Target_TGCustom.swift in Sources */,
+				06F71E5722E82F63008285EC /* CustomController.swift in Sources */,
 				0651EA7522E8269D007C31FD /* ViewController.swift in Sources */,
 				0651EA7322E8269D007C31FD /* AppDelegate.swift in Sources */,
 			);
@@ -283,7 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 839RTY5C9C;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TGCustom/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,7 +325,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 839RTY5C9C;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TGCustom/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
